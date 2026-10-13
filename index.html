@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="sidebar">
+            <div class="logo-container">
+                <img src="./resources/odin-logo.png" alt="Odin Logo" class="logo">
+                <span class="logo-text">ODIN</span>
+            </div>
+
+            <div class="photo-background">
+                <p>Photo by <a href=""https://unsplash.com/@haliewestphoto" target="_blank">Halie West</a> on <a href="https://unsplash.com" target="_blank">Unsplash</a></p>
+            </div>
+
+        </div>
+
+        <div class="content-container">
+            <div class="intro-text">
+                <p>
+                    This is not a real online service!
+                    You know you need something like this in your life to help you realize your deapest dreams.
+                    <br>Sign up <em>now</em> to get started
+                </p>
+                <p>
+                    You <em>know</em> you want to.
+                </p>
+
+            </div>
+            <div class="form-section">
+                <legend>Let's do this!</legend>
+                <form action="#" method="post">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="first-name" value="Thor" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" name="last-name" value="Odison" required>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input type="tel" id="phone-number" name="phone-number" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" required minlength="6">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm-password" name="confirm-password" required minlength="6">
+                        </div>
+
+                    </div>
+
+                    <div class="actions">
+                        <button type="submit" id="btn_submit" class="btn_submit">Create Account</button>
+                        <p class="login-link">Already have an account?<a href="#">Log in</a></p>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+</body>
+
+</html>
